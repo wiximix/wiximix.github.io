@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+    <!--
+        © Material Theme
+        https://github.com/viosey/hexo-theme-material
+        Version: 1.3.4 -->
+
+    <!-- Title -->
+    
+    <title>
+        
+            NODEPPT demo | 
+        
+        WiX&#39;s House
+    </title>
+
+    <!-- Meta & Info -->
+    <meta charset="utf-8">
+
+    <!-- dns prefetch -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    
+    
+    
+    
+    
+    
+
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0097A7">
+    <meta name="author" content="Wang Xiang">
+    <meta name="description" content="wix">
+    <meta name="keywords" content="null">
+
+    <!-- Favicons -->
+    <link rel="icon shortcut" type="image/ico" href="/img/favicon.png">
+    <link rel="icon" sizes="192x192" href="/img/favicon.png">
+    <link rel="apple-touch-icon" href="/img/favicon.png">
+
+    <!--iOS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-title" content="Title">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="480">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="WiX&#39;s House">
+
+    <!-- The Open Graph protocol -->
+    <meta property="og:url" content="http://wiximix.com">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="NODEPPT demo | WiX&#39;s House">
+    <meta property="og:description" content="wix">
+    
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="/css/ie-blocker.css">
+
+        
+            <script src="/js/ie-blocker.zhCN.js"></script>
+        
+    <![endif]-->
+
+    <!-- Import CSS & jQuery -->
+    
+        <link rel="stylesheet" href="/css/material.min.css">
+        <link rel="stylesheet" href="/css/style.min.css">
+        <!-- Config CSS -->
+
+
+<!-- Other Styles -->
+<style>
+  body, html {
+    font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  }
+
+  a {
+    color: #00838F;
+  }
+
+  .mdl-card__media,
+  #search-label,
+  #search-form-label:after,
+  #scheme-Paradox .hot_tags-count,
+  #scheme-Paradox .sidebar_archives-count,
+  #scheme-Paradox .sidebar-colored .sidebar-header,
+  #scheme-Paradox .sidebar-colored .sidebar-badge{
+    background-color: #0097A7 !important;
+  }
+
+  /* Sidebar User Drop Down Menu Text Color */
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
+    color: #0097A7 !important;
+  }
+
+  #post_entry-right-info,
+  .sidebar-colored .sidebar-nav li:hover > a,
+  .sidebar-colored .sidebar-nav li:hover > a i,
+  .sidebar-colored .sidebar-nav li > a:hover,
+  .sidebar-colored .sidebar-nav li > a:hover i,
+  .sidebar-colored .sidebar-nav li > a:focus i,
+  .sidebar-colored .sidebar-nav > .open > a,
+  .sidebar-colored .sidebar-nav > .open > a:hover,
+  .sidebar-colored .sidebar-nav > .open > a:focus,
+  #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {
+    color: #0097A7 !important;
+  }
+
+  .toTop {
+    background: #757575 !important;
+  }
+
+  .material-layout .material-post>.material-nav,
+  .material-layout .material-index>.material-nav,
+  .material-nav a {
+    color: #757575;
+  }
+
+  #scheme-Paradox .MD-burger-layer {
+    background-color: #757575;
+  }
+
+  #scheme-Paradox #post-toc-trigger-btn {
+    color: #757575;
+  }
+
+  .post-toc a:hover {
+    color: #00838F;
+    text-decoration: underline;
+  }
+
+</style>
+
+
+<!-- Theme Background Related-->
+
+    <style>
+      body{
+        background-color: #F5F5F5;
+      }
+
+      /* blog_info bottom background */
+      #scheme-Paradox .material-layout .something-else .mdl-card__supporting-text{
+        background-color: #fff;
+      }
+    </style>
+
+
+
+
+<!-- Fade Effect -->
+
+    <style>
+      .fade {
+        transition: all 800ms linear;
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        -o-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        opacity: 1;
+      }
+
+      .fade.out{
+        opacity: 0;
+      }
+    </style>
+
+
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/queue.js"></script>
+    
+
+    <!-- UC Browser Compatible -->
+    <script>
+        var agent = navigator.userAgent.toLowerCase();
+        if(agent.indexOf('ucbrowser')>0) {
+            document.write("<link rel=\"stylesheet\" href=\"/css/uc.css\">");
+            alert('由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。');
+        }
+    </script>
+
+    
+
+    
+
+
+    <!-- Bing Background -->
+    
+
+    <!-- Custom Head -->
+    
+</head>
+
+
+    
+        <body id="scheme-Paradox" class="lazy">
+            <div class="material-layout  mdl-js-layout has-drawer is-upgraded">
+                
+
+                <!-- Main Container -->
+                <main class="material-layout__content" id="main">
+
+                    <!-- Top Anchor -->
+                    <div id="top"></div>
+
+                    
+                        <!-- Hamburger Button -->
+                        <button class="MD-burger-icon sidebar-toggle">
+                            <span class="MD-burger-layer"></span>
+                        </button>
+                    
+
+                    <!-- Post TOC -->
+
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+    <!-- Left aligned menu below button -->
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#nodePPT"><span class="post-toc-number">1.</span> <span class="post-toc-text">nodePPT</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#这可能是迄今为止最好的网页版演示库"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">这可能是迄今为止最好的网页版演示库</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#为什么选择nodePPT"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">为什么选择nodePPT</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#基本语法和样式演示"><span class="post-toc-number">2.</span> <span class="post-toc-text">基本语法和样式演示</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#封面样式"><span class="post-toc-number">3.</span> <span class="post-toc-text">封面样式</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#h1是作为封面用的，内部的都用h2"><span class="post-toc-number">3.1.</span> <span class="post-toc-text">h1是作为封面用的，内部的都用h2</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#样式展示-amp-flexbox-vleft"><span class="post-toc-number">4.</span> <span class="post-toc-text">样式展示 {:&.flexbox.vleft}</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#基本语法指南"><span class="post-toc-number">4.1.</span> <span class="post-toc-text">基本语法指南</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#支持添加背景图片-amp-flexbox-vleft"><span class="post-toc-number">5.</span> <span class="post-toc-text">支持添加背景图片 {:&.flexbox.vleft}</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#使用LaTex公式："><span class="post-toc-number">5.1.</span> <span class="post-toc-text">使用LaTex公式：</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#支持-class-id-自定义属性样式"><span class="post-toc-number">5.2.</span> <span class="post-toc-text">支持.class/#id/自定义属性样式</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#主页面样式"><span class="post-toc-number">5.3.</span> <span class="post-toc-text">主页面样式</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#—-是上下分界线"><span class="post-toc-number">5.3.1.</span> <span class="post-toc-text">—-是上下分界线</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#表格示例"><span class="post-toc-number">5.4.</span> <span class="post-toc-text">表格示例</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#市面上主要的css预处理器：Less-Sass-Stylus"><span class="post-toc-number">5.4.1.</span> <span class="post-toc-text">市面上主要的css预处理器：Less\Sass\Stylus</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#text"><span class="post-toc-number">5.5.</span> <span class="post-toc-text">text</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#label-and-link"><span class="post-toc-number">5.6.</span> <span class="post-toc-text">label and link</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#blockquote"><span class="post-toc-number">5.7.</span> <span class="post-toc-text">blockquote</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#buttons"><span class="post-toc-number">5.8.</span> <span class="post-toc-text">buttons</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#icons-Font-Awesome"><span class="post-toc-number">5.9.</span> <span class="post-toc-text">icons: Font Awesome</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#代码格式化"><span class="post-toc-number">5.10.</span> <span class="post-toc-text">代码格式化</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#使用-highlightjs-进行语法高亮"><span class="post-toc-number">5.10.1.</span> <span class="post-toc-text">使用 highlightjs 进行语法高亮</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#支持-HTML-和-markdown-语法混编"><span class="post-toc-number">5.11.</span> <span class="post-toc-text">支持 HTML 和 markdown 语法混编</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#多窗口和远程控制演示"><span class="post-toc-number">6.</span> <span class="post-toc-text">多窗口和远程控制演示</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#多窗口演示"><span class="post-toc-number">6.1.</span> <span class="post-toc-text">多窗口演示</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#双屏演示不out！"><span class="post-toc-number">6.2.</span> <span class="post-toc-text">双屏演示不out！</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#nodePPT动效和转场演示"><span class="post-toc-number">7.</span> <span class="post-toc-text">nodePPT动效和转场演示</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#第一部分：介绍单页slide内动效"><span class="post-toc-number">8.</span> <span class="post-toc-text">第一部分：介绍单页slide内动效</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#演示magic标签效果"><span class="post-toc-number">8.1.</span> <span class="post-toc-text">演示magic标签效果</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#"><span class="post-toc-number">9.</span> <span class="post-toc-text"></span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#演示earthquake转场效果"><span class="post-toc-number">9.1.</span> <span class="post-toc-text">演示earthquake转场效果</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#换个magic动效效果"><span class="post-toc-number">9.2.</span> <span class="post-toc-text">换个magic动效效果</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#-1"><span class="post-toc-number">10.</span> <span class="post-toc-text"></span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#动效：fadeIn"><span class="post-toc-number">10.1.</span> <span class="post-toc-text">动效：fadeIn</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#动效：zoomIn"><span class="post-toc-number">10.2.</span> <span class="post-toc-text">动效：zoomIn</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#动效：bounceIn"><span class="post-toc-number">10.3.</span> <span class="post-toc-text">动效：bounceIn</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#nodePPT支持多达20多个转场动效"><span class="post-toc-number">11.</span> <span class="post-toc-text">nodePPT支持多达20多个转场动效</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#20种转场动效随心换"><span class="post-toc-number">11.1.</span> <span class="post-toc-text">20种转场动效随心换</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#这是一个glue的动效"><span class="post-toc-number">11.2.</span> <span class="post-toc-text">这是一个glue的动效</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#这是一个glue的动效-1"><span class="post-toc-number">11.3.</span> <span class="post-toc-text">这是一个glue的动效</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#这是一个zoomin的动效"><span class="post-toc-number">11.4.</span> <span class="post-toc-text">这是一个zoomin的动效</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#这是一个vertical3d的动效"><span class="post-toc-number">11.5.</span> <span class="post-toc-text">这是一个vertical3d的动效</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#nodePPT快捷键介绍"><span class="post-toc-number">12.</span> <span class="post-toc-text">nodePPT快捷键介绍</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#快速翻页"><span class="post-toc-number">12.1.</span> <span class="post-toc-text">快速翻页</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#动效样式强调"><span class="post-toc-number">12.2.</span> <span class="post-toc-text">动效样式强调</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#支持zoom-js"><span class="post-toc-number">12.3.</span> <span class="post-toc-text">支持zoom.js</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#图片，点击全屏"><span class="post-toc-number">12.4.</span> <span class="post-toc-text">图片，点击全屏</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#图片，禁止全屏"><span class="post-toc-number">12.5.</span> <span class="post-toc-text">图片，禁止全屏</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#使用note笔记"><span class="post-toc-number">12.6.</span> <span class="post-toc-text">使用note笔记</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#note笔记是多窗口，或者自己做一些笔记用的"><span class="post-toc-number">12.6.1.</span> <span class="post-toc-text">note笔记是多窗口，或者自己做一些笔记用的</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#使用画笔"><span class="post-toc-number">12.7.</span> <span class="post-toc-text">使用画笔</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#使用画笔做标记哦-你也可以随便作画啊！"><span class="post-toc-number">12.7.1.</span> <span class="post-toc-text">使用画笔做标记哦~你也可以随便作画啊！</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#宽度不够？？"><span class="post-toc-number">12.8.</span> <span class="post-toc-text">宽度不够？？</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#使用overview模式"><span class="post-toc-number">12.9.</span> <span class="post-toc-text">使用overview模式</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#介绍下nodePPT的函数和事件"><span class="post-toc-number">13.</span> <span class="post-toc-text">介绍下nodePPT的函数和事件</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#使用回调"><span class="post-toc-number">13.1.</span> <span class="post-toc-text">使用回调</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#远程执行函数"><span class="post-toc-number">13.2.</span> <span class="post-toc-text">远程执行函数</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#更多玩法"><span class="post-toc-number">13.3.</span> <span class="post-toc-text">更多玩法</span></a></li></ol></li></ol>
+
+        <!--
+        <li class="mdl-menu__item">
+            Some Action
+        </li>
+        -->
+    </ul>
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
+    
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+            <script>
+    var randomNum = Math.floor(Math.random() * 19 + 1);
+
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').addClass('lazy');
+</script>
+
+        
+    
+            <p class="article-headline-p">
+                NODEPPT demo
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>Wang Xiang</strong>
+        <span>4月 27, 2017</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        
+    </ul>
+    
+
+    <!-- Share -->
+    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=NODEPPT demo&url=http://wiximix.com//2017/04/27/NODEPPT-demo/index.html&pic=&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=NODEPPT demo&url=http://wiximix.com//2017/04/27/NODEPPT-demo/index.html&via=Wang Xiang" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://wiximix.com//2017/04/27/NODEPPT-demo/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://wiximix.com//2017/04/27/NODEPPT-demo/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <p>title: nodeppt markdown 演示<br>speaker: 三水清<br>url: <a href="https://github.com/ksky521/nodePPT" target="_blank" rel="external">https://github.com/ksky521/nodePPT</a><br>transition: slide3<br>files: /js/demo.js,/css/demo.css,/js/zoom.js<br>theme: moon<br>usemathjax: yes</p>
+<p>[slide]</p>
+<h1 id="nodePPT"><a href="#nodePPT" class="headerlink" title="nodePPT"></a>nodePPT</h1><h2 id="这可能是迄今为止最好的网页版演示库"><a href="#这可能是迄今为止最好的网页版演示库" class="headerlink" title="这可能是迄今为止最好的网页版演示库"></a>这可能是迄今为止最好的网页版演示库</h2><p><small style="vertical-align:middle;display:inline-block"><iframe src="http://ghbtns.com/github-btn.html?user=ksky521&repo=nodeppt&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20" style="width:110px;height:20px;  background-color: transparent;"></iframe><iframe src="http://ghbtns.com/github-btn.html?user=ksky521&repo=nodeppt&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20" style="width:110px;height:20px;  background-color: transparent;"></iframe><iframe src="http://ghbtns.com/github-btn.html?user=ksky521&repo=nodeppt&type=follow&count=false" allowtransparency="true" frameborder="0" scrolling="0" width="170" height="20" style="width:170px;height:20px;  background-color: transparent;"></iframe></small><br>[slide]</p>
+<h2 id="为什么选择nodePPT"><a href="#为什么选择nodePPT" class="headerlink" title="为什么选择nodePPT"></a>为什么选择nodePPT</h2><hr>
+<ul>
+<li>基于GFM的markdown语法编写 {:&amp;.rollIn}</li>
+<li>支持html混排，再复杂的demo也可以做！</li>
+<li>导出网页或者pdf更容易分享</li>
+<li>支持单页背景图片</li>
+<li>多种模式：纵览模式，双屏模式，远程控制</li>
+<li>可以使用画板，可以使用note做备注</li>
+<li>支持语法高亮，自由选择highlight样式</li>
+<li>可以单页ppt内部动效，单步动效</li>
+<li>支持进入/退出回调，做在线demo很方便</li>
+</ul>
+<p>[slide]</p>
+<h1 id="基本语法和样式演示"><a href="#基本语法和样式演示" class="headerlink" title="基本语法和样式演示"></a>基本语法和样式演示</h1><p>[slide]</p>
+<h1 id="封面样式"><a href="#封面样式" class="headerlink" title="封面样式"></a>封面样式</h1><h2 id="h1是作为封面用的，内部的都用h2"><a href="#h1是作为封面用的，内部的都用h2" class="headerlink" title="h1是作为封面用的，内部的都用h2"></a>h1是作为封面用的，内部的都用h2</h2><p><small>演讲者：xxx</small></p>
+<p>[slide]</p>
+<h1 id="样式展示-amp-flexbox-vleft"><a href="#样式展示-amp-flexbox-vleft" class="headerlink" title="样式展示 {:&amp;.flexbox.vleft}"></a>样式展示 {:&amp;.flexbox.vleft}</h1><blockquote>
+<p>nodePPT 让每个人都爱上做分享！</p>
+</blockquote>
+<p>[slide]</p>
+<h2 id="基本语法指南"><a href="#基本语法指南" class="headerlink" title="基本语法指南"></a>基本语法指南</h2><hr>
+<pre><code class="markdown">/* 先写总的配置 */
+title: 这是title，网页名称
+speaker: 演讲者名称
+url: https://github.com/ksky521/nodePPT
+transition: 全局转场动效
+files: 引入的js和css文件，多个以半角逗号隔开
+theme: 皮肤样式
+highlightStyle: 代码高亮样式，默认monokai_sublime
+usemathjax: yes 启用MathJax渲染公式
+
+/* 以&#91;slide&#93; 隔开每个ppt页面 */
+&#91;slide&#93;
+## 二级标题
+这里写内容即可
+
+&#91;slide&#93;
+...
+</code>
+</pre>
+
+
+
+<p>[slide style=”background-image:url(‘/img/bg1.png’)”]</p>
+<h1 id="支持添加背景图片-amp-flexbox-vleft"><a href="#支持添加背景图片-amp-flexbox-vleft" class="headerlink" title="支持添加背景图片 {:&amp;.flexbox.vleft}"></a>支持添加背景图片 {:&amp;.flexbox.vleft}</h1><p>使用方法：&#91;slide style=”background-image:url(‘/img/bg1.png’)”&#93;</p>
+<p>完全style写法，更加灵活，视频背景、repeat背景更不在话下</p>
+<p>[slide]</p>
+<h2 id="使用LaTex公式："><a href="#使用LaTex公式：" class="headerlink" title="使用LaTex公式："></a>使用LaTex公式：</h2><p>$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a}.    s = ut + \frac{1}{2}at^2 $$<br>矩阵：\( x = {\begin{bmatrix} 1 &amp; 2 &amp; 3 \\ 4 &amp; 5 &amp; 6 \end{bmatrix}}  \)</p>
+<p>[slide]</p>
+<h2 id="支持-class-id-自定义属性样式"><a href="#支持-class-id-自定义属性样式" class="headerlink" title="支持.class/#id/自定义属性样式"></a>支持.class/#id/自定义属性样式</h2><hr>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">使用：.class&#123;:.class&#125;</div><div class="line">使用：#id&#123;:#id&#125;</div><div class="line">组合使用：&#123;:.class.class2 width="200px"&#125;</div><div class="line">父元素样式使用&amp;：&#123;:&amp;.class&#125;</div></pre></td></tr></table></figure>
+<p>[slide]</p>
+<h2 id="主页面样式"><a href="#主页面样式" class="headerlink" title="主页面样式"></a>主页面样式</h2><h3 id="—-是上下分界线"><a href="#—-是上下分界线" class="headerlink" title="—-是上下分界线"></a>—-是上下分界线</h3><hr>
+<p>nodeppt是基于nodejs写的支持 <strong>Markdown!</strong> 语法的网页PPT</p>
+<p>nodeppt：<a href="https://github.com/ksky521/nodePPT" target="_blank" rel="external">https://github.com/ksky521/nodePPT</a></p>
+<p>[slide]</p>
+<h2 id="表格示例"><a href="#表格示例" class="headerlink" title="表格示例"></a>表格示例</h2><h3 id="市面上主要的css预处理器：Less-Sass-Stylus"><a href="#市面上主要的css预处理器：Less-Sass-Stylus" class="headerlink" title="市面上主要的css预处理器：Less\Sass\Stylus"></a>市面上主要的css预处理器：Less\Sass\Stylus</h3><hr>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"></th>
+<th style="text-align:center">Less</th>
+<th style="text-align:right">Sass</th>
+<th>Stylus</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">环境</td>
+<td style="text-align:center">js/nodejs</td>
+<td style="text-align:right">Ruby(这列右对齐)</td>
+<td>nodejs(高亮) {:.highlight}</td>
+</tr>
+<tr>
+<td style="text-align:left">扩展名</td>
+<td style="text-align:center">.less</td>
+<td style="text-align:right">.scss/.sass</td>
+<td>.styl</td>
+</tr>
+<tr>
+<td style="text-align:left">特点</td>
+<td style="text-align:center">老牌，用户多，支持js解析</td>
+<td style="text-align:right">功能全，有成型框架，发展快</td>
+<td>语法多样，小众</td>
+</tr>
+<tr>
+<td style="text-align:left">案例/框架</td>
+<td style="text-align:center"><a href="http://getbootstrap.com/" target="_blank" rel="external">Bootstrap</a></td>
+<td style="text-align:right"><a href="http://beta.compass-style.org" target="_blank" rel="external">Compass</a> <a href="http://getbootstrap.com/css/#sass" target="_blank" rel="external">Bootstrap</a> <a href="http://foundation.zurb.com/" target="_blank" rel="external">Foundation</a> <a href="http://bourbon.io" target="_blank" rel="external">Bourbon</a> <a href="https://github.com/jsw0528/base.sass" target="_blank" rel="external">Base.Sass</a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>[slide]</p>
+<h2 id="text"><a href="#text" class="headerlink" title="text"></a>text</h2><hr>
+<p><span class="text-danger">.text-danger</span> <span class="text-success">.text-sucess</span><span class="text-primary">.text-primary</span></p>
+<p><span class="text-warning">.text-warning</span><span class="text-info">.text-info</span><span class="text-white">.text-white</span><span class="text-dark">.text-dark</span></p>
+<p><span class="blue">.blue</span><span class="blue2">.blue2</span><span class="blue3">.blue3</span><span class="gray">.gray</span><span class="gray2">.gray2</span><span class="gray3">.gray3</span></p>
+<p><span class="red">.red</span><span class="red2">.red2</span><span class="red3">.red3</span></p>
+<p><span class="yellow">.yellow</span><span class="yellow2">.yellow2</span><span class="yellow3">.yellow3</span><span class="green">.green</span><span class="green2">.green2</span><span class="green3">.green3</span></p>
+<p>[slide]</p>
+<h2 id="label-and-link"><a href="#label-and-link" class="headerlink" title="label and link"></a>label and link</h2><p><span class="label label-primary">.label.label-primary</span><span class="label label-warning">.label.label-warning</span><span class="label label-danger">.label.label-danger</span><span class="label label-default">.label.label-default</span><span class="label label-success">.label.label-success</span><span class="label label-info">.label.label-info</span></p>
+<p><a href="#">link style</a> <mark>mark</mark></p>
+<p>[slide]</p>
+<h2 id="blockquote"><a href="#blockquote" class="headerlink" title="blockquote"></a>blockquote</h2><hr>
+<blockquote>
+<p>nodeppt可能是迄今为止最好用的web presentation <small>三水清</small></p>
+</blockquote>
+<p>下面是另外一种样式</p>
+<blockquote>
+<p>这是一个class是：pull-right的blockquote <small>small一下</small> {:&amp;.pull-right}</p>
+</blockquote>
+<p>[slide]</p>
+<h2 id="buttons"><a href="#buttons" class="headerlink" title="buttons"></a>buttons</h2><hr>
+<button class="btn btn-default">.btn .btn-default</button>  <button class="btn btn-primary">.btn.btn-lg.btn-primary</button> <button class="btn btn-warning">.btn.btn-waring</button> <button class="btn btn-success">.btn.btn-success</button> <button class="btn btn-danger">.btn.btn-danger</button>
+
+<button class="btn btn-lg btn-default">.btn.btn-lg.btn-default</button> <button class="btn btn-xs btn-success">.btn.btn-xs.btn-success</button> <button class="btn btn-sm btn-primary">.btn.btn-sm.btn-primary</button> <button class="btn btn-rounded btn-warning">.btn.btn-rounded.btn-waring</button>  <button class="btn btn-danger" disabled="disabled">disabled.btn.btn-danger</button>
+
+
+<button class="btn btn-success"><i class="fa fa-share mr5"></i></button>
+
+<p>[slide]</p>
+<h2 id="icons-Font-Awesome"><a href="#icons-Font-Awesome" class="headerlink" title="icons: Font Awesome"></a>icons: Font Awesome</h2><hr>
+<p><i class="fa fa-apple"></i><br><i class="fa fa-android"></i><br><i class="fa fa-github"></i><br><i class="fa fa-google"></i><br><i class="fa fa-linux"></i><br><i class="fa fa-css3"></i><br><i class="fa fa-html5"></i><br><i class="fa fa-usd"></i><br><i class="fa fa-pie-chart"></i><br><i class="fa fa-file-video-o"></i><br><i class="fa fa-cog"></i></p>
+<p>[slide]</p>
+<h2 id="代码格式化"><a href="#代码格式化" class="headerlink" title="代码格式化"></a>代码格式化</h2><h3 id="使用-highlightjs-进行语法高亮"><a href="#使用-highlightjs-进行语法高亮" class="headerlink" title="使用 highlightjs 进行语法高亮"></a>使用 <code>highlightjs</code> 进行语法高亮</h3><hr>
+<div class="columns-2"><br>    <pre><code class="javascript">(function(window, document){<br>    var a = 1;<br>    var test = function(){<br>        var b = 1;<br>        alert(b);<br>    };<br>    //泛数组转换为数组<br>    function toArray(arrayLike) {<br>        return [].slice.call(arrayLike);<br>    }<br>}(window, document));<br>    </code></pre><br>    <pre><code class="javascript">(function(window, document){<br>    var a = 1;<br>    var test = function(){<br>        var b = 1;<br>        alert(b);<br>    };<br>    //泛数组转换为数组<br>    function toArray(arrayLike) {<br>        return [].slice.call(arrayLike);<br>    }<br>}(window, document));<br>    </code></pre><br></div>
+
+<p>[slide data-on-enter=”testScriptTag”]</p>
+<h2 id="支持-HTML-和-markdown-语法混编"><a href="#支持-HTML-和-markdown-语法混编" class="headerlink" title="支持 HTML 和 markdown 语法混编"></a>支持 HTML 和 markdown 语法混编</h2><hr>
+<div class="file-setting"><br>    <p>这是html</p><br></div><br><p id="css-demo">这是css样式</p><br><p>将html代码直接混编到<strong>markdown</strong>文件中即可</p><br><br>我是js控制的颜色 black {:#testScriptTag}<br><br><script><br>    function testScriptTag(){<br>        document.getElementById(‘testScriptTag’).style.color = ‘black’;<br>    }<br><br></script><br><style><br>#css-demo{<br>    color: red;<br>}<br></style><br><br><br>[slide]<br>## iframe效果<br>—-<br><iframe data-src="http://www.baidu.com" src="about:blank;"></iframe><br><br>[slide]<br># 内置多套皮肤<br><br>[slide]<br>## 支持多种皮肤<br>—-<br><br><div class="columns6"><br>    <a href="?theme=color" class="label-danger">color</a><br>    <a href="?theme=blue" class="label-primary">blue</a><br>    <a href="?theme=dark" class="label-info">dark</a><br>    <a href="?theme=green" class="label-success">green</a><br>    <a href="?theme=light" class="label-warning">light</a><br></div>
+
+<p>[slide]</p>
+<h1 id="多窗口和远程控制演示"><a href="#多窗口和远程控制演示" class="headerlink" title="多窗口和远程控制演示"></a>多窗口和远程控制演示</h1><p>[slide]</p>
+<h2 id="多窗口演示"><a href="#多窗口演示" class="headerlink" title="多窗口演示"></a>多窗口演示</h2><h2 id="双屏演示不out！"><a href="#双屏演示不out！" class="headerlink" title="双屏演示不out！"></a>双屏演示不out！</h2><hr>
+<p>本页面网址改成 <a href="?_multiscreen=1">url?_multiscreen=1</a>，支持多屏演示哦！</p>
+<p>跟powderpoint/keynote一样的双屏功能，带有备注信息。</p>
+<p>[slide]</p>
+<h1 id="nodePPT动效和转场演示"><a href="#nodePPT动效和转场演示" class="headerlink" title="nodePPT动效和转场演示"></a>nodePPT动效和转场演示</h1><p>[slide]</p>
+<h1 id="第一部分：介绍单页slide内动效"><a href="#第一部分：介绍单页slide内动效" class="headerlink" title="第一部分：介绍单页slide内动效"></a>第一部分：介绍单页slide内动效</h1><p>[slide]</p>
+<p>[magic data-transition=”earthquake”]</p>
+<h2 id="演示magic标签效果"><a href="#演示magic标签效果" class="headerlink" title="演示magic标签效果"></a>演示magic标签效果</h2><hr>
+<p><div class="columns3"><br>    <img src="/girl.jpg" height="450"><br>    <img src="/girl.jpg" height="450"><br>    <img src="/girl.jpg" height="450"></div></p>
+<h1 id=""><a href="#" class="headerlink" title=""></a></h1><h2 id="演示earthquake转场效果"><a href="#演示earthquake转场效果" class="headerlink" title="演示earthquake转场效果"></a>演示earthquake转场效果</h2><hr>
+<p><div class="columns4"><br>    <img src="/girl.jpg" height="320"><br>    <img src="/girl.jpg" height="320"><br>    <img src="/girl.jpg" height="320"><br>    <img src="/girl.jpg" height="320"><br></div><br>[/magic]</p>
+<p>[slide]<br>[magic data-transition=”cover-circle”]</p>
+<h2 id="换个magic动效效果"><a href="#换个magic动效效果" class="headerlink" title="换个magic动效效果"></a>换个magic动效效果</h2><hr>
+<h1 id="-1"><a href="#-1" class="headerlink" title=""></a><img src="/girl.jpg" alt=""></h1><p><img src="/girl.jpg" alt=""><br>[/magic]</p>
+<p>[slide]</p>
+<h2 id="动效：fadeIn"><a href="#动效：fadeIn" class="headerlink" title="动效：fadeIn"></a>动效：fadeIn</h2><hr>
+<ul>
+<li>列表支持渐显动效哦 {:&amp;.fadeIn}<ul>
+<li>使用方法</li>
+<li>markdown列表第一条加上：{:&amp;.动效类型}</li>
+</ul>
+</li>
+<li>动效类型<ul>
+<li>fadeIn</li>
+<li>rollIn</li>
+<li>bounceIn</li>
+<li>moveIn</li>
+<li>zoomIn</li>
+</ul>
+</li>
+</ul>
+<p>[slide]</p>
+<h2 id="动效：zoomIn"><a href="#动效：zoomIn" class="headerlink" title="动效：zoomIn"></a>动效：zoomIn</h2><hr>
+<ul>
+<li>列表支持渐显动效哦 {:&amp;.zoomIn}</li>
+<li>动效类型<ul>
+<li>fadeIn</li>
+<li>rollIn</li>
+<li>bounceIn</li>
+<li>moveIn</li>
+<li>zoomIn</li>
+</ul>
+</li>
+</ul>
+<p>[slide]</p>
+<h2 id="动效：bounceIn"><a href="#动效：bounceIn" class="headerlink" title="动效：bounceIn"></a>动效：bounceIn</h2><hr>
+<ul>
+<li>列表支持渐显动效哦 {:&amp;.bounceIn}</li>
+<li>动效类型<ul>
+<li>fadeIn</li>
+<li>rollIn</li>
+<li>bounceIn</li>
+<li>moveIn</li>
+<li>zoomIn</li>
+</ul>
+</li>
+</ul>
+<p>[slide]</p>
+<h1 id="nodePPT支持多达20多个转场动效"><a href="#nodePPT支持多达20多个转场动效" class="headerlink" title="nodePPT支持多达20多个转场动效"></a>nodePPT支持多达20多个转场动效</h1><p>[slide]</p>
+<h2 id="20种转场动效随心换"><a href="#20种转场动效随心换" class="headerlink" title="20种转场动效随心换"></a>20种转场动效随心换</h2><hr>
+<ul>
+<li><a href="?transition=slide">slide</a>/<a href="?transition=slide2">slide2</a>/<a href="?transition=slide3">slide3</a></li>
+<li><a href="?transition=newspaper">newspaper</a></li>
+<li><a href="?transition=glue">glue</a></li>
+<li><a href="?transition=kontext">kontext</a>/<a href="?transition=vkontext">vkontext</a></li>
+<li><a href="?transition=move">move</a>/<a href="?transition=circle">circle</a></li>
+<li><a href="?transition=horizontal">horizontal</a>/<a href="?transition=horizontal3d">horizontal3d</a></li>
+<li><a href="?transition=vertical3d">vertical3d</a></li>
+<li><a href="?transition=zoomin">zoomin</a>/<a href="?transition=zoomout">zoomout</a></li>
+<li><a href="?transition=cards">cards</a></li>
+<li><a href="?transition=earthquake">earthquake</a>/<a href="?transition=pulse">pulse</a>/<a href="?transition=stick">stick</a>…</li>
+</ul>
+<p>[slide data-transition=”glue”]</p>
+<h2 id="这是一个glue的动效"><a href="#这是一个glue的动效" class="headerlink" title="这是一个glue的动效"></a>这是一个glue的动效</h2><hr>
+<p>使用方法（全局设置） 1：</p>
+<blockquote>
+<p>transition: glue</p>
+</blockquote>
+<p>[slide data-transition=”glue”]</p>
+<h2 id="这是一个glue的动效-1"><a href="#这是一个glue的动效-1" class="headerlink" title="这是一个glue的动效"></a>这是一个glue的动效</h2><hr>
+<p>使用方法 2：</p>
+<p>&#91;slide data-transition=”glue”&#93;</p>
+<p>[slide data-transition=”zoomin”]</p>
+<h2 id="这是一个zoomin的动效"><a href="#这是一个zoomin的动效" class="headerlink" title="这是一个zoomin的动效"></a>这是一个zoomin的动效</h2><hr>
+<p>使用方法：</p>
+<p>&#91;slide data-transition=”zoomin”&#93;</p>
+<p>[slide data-transition=”vertical3d”]</p>
+<h2 id="这是一个vertical3d的动效"><a href="#这是一个vertical3d的动效" class="headerlink" title="这是一个vertical3d的动效"></a>这是一个vertical3d的动效</h2><hr>
+<p>使用方法：</p>
+<p>&#91;slide data-transition=”vertical3d”&#93;</p>
+<p>[slide]</p>
+<h1 id="nodePPT快捷键介绍"><a href="#nodePPT快捷键介绍" class="headerlink" title="nodePPT快捷键介绍"></a>nodePPT快捷键介绍</h1><p>[slide]</p>
+<h2 id="快速翻页"><a href="#快速翻页" class="headerlink" title="快速翻页"></a>快速翻页</h2><hr>
+<ol>
+<li>输入页码，然后enter</li>
+<li>使用O键，开启纵览模式，然后翻页</li>
+</ol>
+<p>[slide]</p>
+<h2 id="动效样式强调"><a href="#动效样式强调" class="headerlink" title="动效样式强调"></a>动效样式强调</h2><hr>
+<p>这段话里面的<strong>加粗</strong>和<em>em</em>字体会动效哦~</p>
+<p>按下【H】键查看效果</p>
+<p>[slide]</p>
+<h2 id="支持zoom-js"><a href="#支持zoom-js" class="headerlink" title="支持zoom.js"></a>支持zoom.js</h2><hr>
+<p>增加了zoom.js的支持，在演示过程中使用<code>alt</code>+鼠标点击，则点击的地方就开始放大，再次<code>alt+click</code>则回复原状</p>
+<p>[slide]</p>
+<h2 id="图片，点击全屏"><a href="#图片，点击全屏" class="headerlink" title="图片，点击全屏"></a>图片，点击全屏</h2><hr>
+<p><img src="/girl.jpg" alt="小萝莉" title="小萝莉"></p>
+<p>[slide]</p>
+<h2 id="图片，禁止全屏"><a href="#图片，禁止全屏" class="headerlink" title="图片，禁止全屏"></a>图片，禁止全屏</h2><hr>
+<p><img src="/girl.jpg" class="no-screenfull"></p>
+<p>[slide]<br>[note]</p>
+<p>##这里是note</p>
+<p>使用n键，才能显示<br>[/note]</p>
+<h2 id="使用note笔记"><a href="#使用note笔记" class="headerlink" title="使用note笔记"></a>使用note笔记</h2><h3 id="note笔记是多窗口，或者自己做一些笔记用的"><a href="#note笔记是多窗口，或者自己做一些笔记用的" class="headerlink" title="note笔记是多窗口，或者自己做一些笔记用的"></a>note笔记是多窗口，或者自己做一些笔记用的</h3><hr>
+<p>按下键盘【N】键测试下note，</p>
+<p>markdown语法如下：<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">[note]</div><div class="line">这里是note，&#123; 要换成中括号啊！！</div><div class="line">&#123;/note]</div></pre></td></tr></table></figure></p>
+<p>[slide]</p>
+<h2 id="使用画笔"><a href="#使用画笔" class="headerlink" title="使用画笔"></a>使用画笔</h2><h3 id="使用画笔做标记哦-你也可以随便作画啊！"><a href="#使用画笔做标记哦-你也可以随便作画啊！" class="headerlink" title="使用画笔做标记哦~你也可以随便作画啊！"></a>使用画笔做标记哦~你也可以随便作画啊！</h3><hr>
+<p>按下键盘【P】键：按下鼠标左键，在此处乱花下看看效果。</p>
+<p>按下键盘【B/Y/R/G/M】：更换颜色，按下【1~4】：更换粗细</p>
+<p>按下键盘【C】键：清空画板</p>
+<p>[slide]</p>
+<h2 id="宽度不够？？"><a href="#宽度不够？？" class="headerlink" title="宽度不够？？"></a>宽度不够？？</h2><hr>
+<p>按下键盘【W】键，切换到更宽的页面看效果，第二次按键返回</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"></th>
+<th style="text-align:center">less</th>
+<th style="text-align:right">sass</th>
+<th>stylus</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">环境</td>
+<td style="text-align:center">js/nodejs</td>
+<td style="text-align:right">Ruby(这列右对齐)</td>
+<td>nodejs(高亮) {:.highlight}</td>
+</tr>
+<tr>
+<td style="text-align:left">扩展名</td>
+<td style="text-align:center">.less</td>
+<td style="text-align:right">.sass/.scss</td>
+<td>.styl</td>
+</tr>
+<tr>
+<td style="text-align:left">特点</td>
+<td style="text-align:center">老牌，用户多，支持js解析</td>
+<td style="text-align:right">功能全，有成型框架，发展快</td>
+<td>语法多样，小众</td>
+</tr>
+<tr>
+<td style="text-align:left">案例/框架</td>
+<td style="text-align:center"><a href="http://getbootstrap.com/" target="_blank" rel="external">Bootstrap</a></td>
+<td style="text-align:right"><a href="http://compass-style.org" target="_blank" rel="external">compass</a> <a href="http://bourbon.io" target="_blank" rel="external">bourbon</a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>[slide]</p>
+<h2 id="使用overview模式"><a href="#使用overview模式" class="headerlink" title="使用overview模式"></a>使用overview模式</h2><hr>
+<p>按下键盘【O】键。看下效果。</p>
+<p>在overview模式下，方向键下一页，【enter】键进入选中页</p>
+<p>或者按下键盘【O】键，退出overview模式</p>
+<p>[slide]</p>
+<h1 id="介绍下nodePPT的函数和事件"><a href="#介绍下nodePPT的函数和事件" class="headerlink" title="介绍下nodePPT的函数和事件"></a>介绍下nodePPT的函数和事件</h1><p>[slide]<br>支持单个slide事件：build/enter/leave/keypress，事件统一在&#91;slide&#93;<br>中使用<code>data-on-X</code>来指定一个全局函数名</p>
+<ul>
+<li>build：当触发下一步操作的时会触发，event具有stop方法</li>
+<li>keypress：在当前页面按键触发，event具有stop方法</li>
+<li>enter/leave：进入/离开 此页面触发的事件，event无stop方法</li>
+</ul>
+<p>[slide data-on-leave=”outcallback” data-on-enter=”incallback” ]</p>
+<h2 id="使用回调"><a href="#使用回调" class="headerlink" title="使用回调"></a>使用回调</h2><hr>
+<ul>
+<li>&#91;slide data-on-leave=”fnName”&#93;<ul>
+<li>进入执行回调incallback函数</li>
+</ul>
+</li>
+<li>&#91;slide data-on-enter=”fnName”&#93;<ul>
+<li>退出执行outcallback函数</li>
+</ul>
+</li>
+</ul>
+<p>亦可以组合写：</p>
+<blockquote>
+<p>&#91;slide data-on-leave=”foo” data-on-enter=”bar”&#93;</p>
+</blockquote>
+<p id="incallback"></p><br><p id="outcallback"></p>
+
+<p>[slide]</p>
+<h2 id="远程执行函数"><a href="#远程执行函数" class="headerlink" title="远程执行函数"></a>远程执行函数</h2><hr>
+<p>在多屏和远程模式中，可以使用<code>proxyFn</code>来远程执行函数。</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="undefined"></span></div><div class="line">function globalFunc()&#123;</div><div class="line">&#125;</div><div class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">onclick</span>=<span class="string">"Slide.proxyFn('globalFunc')"</span> <span class="attr">class</span>=<span class="string">"btn btn-default"</span>&gt;</span>远程执行函数<span class="tag">&lt;/<span class="name">button</span>&gt;</span></div></pre></td></tr></table></figure>
+<p><button onclick="Slide.proxyFn('globalFunc','args')" class="btn btn-default">测试远程执行函数</button><br><a href="?_multiscreen=1#33">在多屏中测试远程执行</a></p>
+<script>
+    function globalFunc(a){
+        alert('proxyFn success: '+a+location.href);
+    }
+</script>
+
+<p>[slide]</p>
+<h2 id="更多玩法"><a href="#更多玩法" class="headerlink" title="更多玩法"></a>更多玩法</h2><hr>
+<p><a href="https://github.com/ksky521/nodePPT" target="_blank" rel="external">https://github.com/ksky521/nodePPT</a></p>
+<p>什么？这些功能还不够用？</p>
+<p>socket远程控制可以在手机上摇一摇换页哦~</p>
+<p>查看项目目录ppts获取更多帮助信息</p>
+
+    
+
+    
+</div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+
+
+
+
+
+
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+        <a href="/2017/04/27/OAuth-JWT学习笔记/" id="post_nav-newer" class="prev-content">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_back</i>
+            </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            新篇
+        </a>
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+</nav>
+
+        </div>
+    </div>
+
+
+
+                    
+                        <!-- Overlay For Active Sidebar -->
+<div class="sidebar-overlay"></div>
+
+<!-- Material sidebar -->
+<aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation">
+    <div id="sidebar-main">
+        <!-- Sidebar Header -->
+        <div class="sidebar-header header-cover" style="background-image: url(/img/sidebar_header.png);">
+    <!-- Top bar -->
+    <div class="top-bar"></div>
+
+    <!-- Sidebar toggle button -->
+    <button type="button" class="sidebar-toggle mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="display: initial;" data-upgraded=",MaterialButton,MaterialRipple">
+        <i class="material-icons">clear_all</i>
+        <span class="mdl-button__ripple-container">
+            <span class="mdl-ripple">
+            </span>
+        </span>
+    </button>
+
+    <!-- Sidebar Avatar -->
+    <div class="sidebar-image">
+        <img src="/img/avatar.png" alt="Wang Xiang's avatar">
+    </div>
+
+    <!-- Sidebar Email -->
+    <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
+        wiximix@gmail.com
+        <b class="caret"></b>
+    </a>
+</div>
+
+
+        <!-- Sidebar Navigation  -->
+        <ul class="nav sidebar-nav">
+    <!-- User dropdown  -->
+    <li class="dropdown">
+        <ul id="settings-dropdown" class="dropdown-menu">
+            
+                <li>
+                    <a href="#" target="_blank" title="Email Me">
+                        
+                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
+                        
+                        Email Me
+                    </a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Homepage -->
+    
+        <li id="sidebar-first-li">
+            <a href="/" target="_self">
+                
+                    <i class="material-icons sidebar-material-icons">home</i>
+                
+                主页
+            </a>
+        </li>
+        
+    
+
+    <!-- Archives  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">inbox</i>
+                
+                    归档
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+            <li>
+                <a class="sidebar_archives-link" href="/archives/2017/04/">四月 2017<span class="sidebar_archives-count">5</span></a>
+            </ul>
+        </li>
+        
+    
+
+    <!-- Categories  -->
+    
+
+    <!-- Pages  -->
+    
+
+    <!-- Article Number  -->
+    
+</ul>
+
+
+        <!-- Sidebar Footer -->
+        <!--
+I'm glad you use this theme, the development is no so easy, I hope you can keep the copyright, I will thank you so much.
+If you still want to delete the copyrights, could you still retain the first one? Which namely "Theme Material"
+It will not impact the appearance and can give developers a lot of support :)
+
+很高兴您使用并喜欢该主题，开发不易 十分谢谢与希望您可以保留一下版权声明。
+如果您仍然想删除的话 能否只保留第一项呢？即 "Theme Material"
+它不会影响美观并可以给开发者很大的支持和动力。 :)
+-->
+
+<!-- Sidebar Divider -->
+
+    <div class="sidebar-divider"></div>
+
+
+<!-- Theme Material -->
+
+    <a href="https://github.com/viosey/hexo-theme-material"  class="sidebar-footer-text-a" target="_blank">
+        <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple">
+            主题 - Material
+            <span class="sidebar-badge badge-circle">i</span>
+        </div>
+    </a>
+
+
+<!-- Help & Support -->
+<!--
+
+-->
+
+<!-- Feedback -->
+<!--
+
+-->
+
+<!-- About Theme -->
+<!--
+
+-->
+
+    </div>
+
+    <!-- Sidebar Image -->
+    
+
+</aside>
+
+                    
+
+                    
+                        <!-- Footer Top Button -->
+                        <div class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
+
+                    
+
+                    <!--Footer-->
+<footer class="mdl-mini-footer" id="bottom">
+    
+        <!-- Paradox Footer Left Section -->
+        <div class="mdl-mini-footer--left-section sns-list">
+    <!-- Twitter -->
+    
+        <a href="https://twitter.com/twitter" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-twitter.svg);">
+                <span class="visuallyhidden">Twitter</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Facebook -->
+    
+        <a href="https://www.facebook.com/facebook" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-facebook.svg);">
+                <span class="visuallyhidden">Facebook</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Google + -->
+    
+        <a href="https://www.google.com/" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-gplus.svg);">
+                <span class="visuallyhidden">Google Plus</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Weibo -->
+    
+
+    <!-- Instagram -->
+    
+
+    <!-- Tumblr -->
+    
+
+    <!-- Github -->
+    
+
+    <!-- LinkedIn -->
+    
+
+    <!-- Zhihu -->
+    
+
+    <!-- Bilibili -->
+    
+
+    <!-- Telegram -->
+    
+</div>
+
+
+        <!--Copyright-->
+        <div id="copyright">
+            Copyright&nbsp;©&nbsp;
+            <script type="text/javascript">
+                var fd = new Date();
+                document.write(fd.getFullYear());
+            </script>
+            &nbsp;WiX's House
+        </div>
+
+        <!-- Paradox Footer Right Section -->
+
+        <!--
+        I am glad you use this theme, the development is no so easy, I hope you can keep the copyright.
+        It will not impact the appearance and can give developers a lot of support :)
+
+        很高兴您使用该主题，开发不易，希望您可以保留一下版权声明。
+        它不会影响美观并可以给开发者很大的支持。 :)
+        -->
+
+        <div class="mdl-mini-footer--right-section">
+            <div>
+                <div class="footer-develop-div">Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a></div>
+                <div class="footer-develop-div">Theme - <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div>
+            </div>
+        </div>
+    
+</footer>
+
+
+                    <!-- Import File -->
+
+    <script src="/js/lazyload.min.js"></script>
+    <script src="/js/js.min.js"></script>
+
+
+
+    <script src="/js/nprogress.js"></script>
+
+
+<script type="text/javascript">
+    NProgress.configure({
+        showSpinner: true
+    });
+    NProgress.start();
+    $('#nprogress .bar').css({
+        'background': '#29d'
+    });
+    $('#nprogress .peg').css({
+        'box-shadow': '0 0 10px #29d, 0 0 15px #29d'
+    });
+    $('#nprogress .spinner-icon').css({
+        'border-top-color': '#29d',
+        'border-left-color': '#29d'
+    });
+    setTimeout(function() {
+        NProgress.done();
+        $('.fade').removeClass('out');
+    }, 800);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Window Load-->
+<script>
+    $(window).load(function() {
+        // Post_Toc parent position fixed
+        $('.post-toc-wrap').parent('.mdl-menu__container').css('position', 'fixed');
+    });
+</script>
+
+<!-- MathJax Load-->
+
+<script>
+    <!-- Offer LazyLoad -->
+    queue.offer(function(){
+        $('.lazy').lazyload({
+            effect : 'show'
+        });
+    });
+
+    <!-- Start Queue -->
+    $(document).ready(function(){
+        setInterval(function(){
+            queue.execNext();
+        },200);
+    });
+</script>
+
+                </main>
+            </div>
+        </body>
+    
+</html>

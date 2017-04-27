@@ -247,7 +247,7 @@
     </button>
 
     <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
-        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Authentication-认证-Authorization-鉴权"><span class="post-toc-number">1.</span> <span class="post-toc-text">Authentication (认证) Authorization (鉴权)</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#WHY-OAuth-2"><span class="post-toc-number"></span> <span class="post-toc-text">WHY OAuth 2</span></a>
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Authentication-认证-Authorization-鉴权"><span class="post-toc-number">1.</span> <span class="post-toc-text">Authentication (认证) Authorization (鉴权)</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#JWT的组成"><span class="post-toc-number">2.</span> <span class="post-toc-text">JWT的组成</span></a></li></ol>
 
         <!--
         <li class="mdl-menu__item">
@@ -397,7 +397,16 @@
         <h2 id="Authentication-认证-Authorization-鉴权"><a href="#Authentication-认证-Authorization-鉴权" class="headerlink" title="Authentication (认证) Authorization (鉴权)"></a>Authentication (认证) Authorization (鉴权)</h2><blockquote>
 <p>认证关心你是谁。<br>鉴权关心你能干什么。<br>例子，如果你去机场乘机，你持有的护照代表你的身份，这是认证，你的机票就是你的权限，你能干什么。</p>
 </blockquote>
-<h1 id="WHY-OAuth-2"><a href="#WHY-OAuth-2" class="headerlink" title="WHY OAuth 2"></a>WHY OAuth 2</h1>
+<h2 id="JWT的组成"><a href="#JWT的组成" class="headerlink" title="JWT的组成"></a>JWT的组成</h2><p>一个JWT是一个字符串，由三部分组成，头部、载荷与签名。</p>
+<p>验证服务器返回的信息可以是以下内容：</p>
+<ul>
+<li>access_token - 访问令牌，用于资源访问</li>
+<li>refresh_token - 当访问令牌失效，使用这个令牌重新获取访问令牌</li>
+<li>token_type - 令牌类型，这里是Bearer也就是基本HTTP认证</li>
+<li>expire_in - 过期时间</li>
+<li>jti - JWT ID</li>
+</ul>
+
     
 
     
@@ -529,7 +538,7 @@
             </a>
             <ul class="dropdown-menu">
             <li>
-                <a class="sidebar_archives-link" href="/archives/2017/04/">四月 2017<span class="sidebar_archives-count">5</span></a>
+                <a class="sidebar_archives-link" href="/archives/2017/04/">四月 2017<span class="sidebar_archives-count">6</span></a>
             </ul>
         </li>
         
